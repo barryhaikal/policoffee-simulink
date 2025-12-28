@@ -25,9 +25,7 @@ The production of a POLICoffee machine involves several critical stages:
 
 ### 1. As-Is State
 The current system is characterized by:
-* **Sequential Processing:** A linear flow where a delay in one station impacts the entire line.
-* **Variable Setup Times:** Transitions between different product batches (e.g., "Single Boiler" vs. "Dual Boiler") create significant downtime.
-* **Bottleneck Risks:** High utilization rates at the **Assembly** and **Final Testing** stations.
+* **Sequential Processing:**
 
 ### 2. To-Be State
 The proposed simulation explores optimizations such as:
@@ -37,15 +35,13 @@ The proposed simulation explores optimizations such as:
 
 ## Modeling Assumptions
 To ensure the simulation is statistically significant, the following parameters are applied:
-* **Process Times:** Modeled using Stochastic distributions (e.g., Normal or Triangular).
 * **Precedence:** Strict logical constraints (Part A must be completed before Part B).
 * **Availability:** Consideration of operator shifts and machine breakdown rates (MTTF/MTTR).
 
 ## Project Structure
 The MATLAB environment contains the following key components:
-* `Main_Simulation.m`: The primary script to run the production loop.
-* `Data_Input.mlx`: Live Script containing the process parameters and setup matrices.
-* `Results_Analysis.m`: Scripts for plotting throughput and utilization rates.
+* `Production.slx`: The primary Simulink file used to run the production system.
+* `MTBF_and_MTTR.m`: MATLAB script to initialize signals of availability for the Electric Box and Painting machines. Running the script before simulation is necessary
 
 ## Key Performance Indicators (KPIs)
 The model evaluates the success of the production system through:
