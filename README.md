@@ -105,8 +105,8 @@ There are 3 possible exits:
 NB: Electronics testing has 0% scrap rate
 
 #### Simulink Functions
-`ReadTime`: Function to read time, and make operations (process TTP calculation, modelling end time) based on detected time
-`ToWorkspace`: For each TTP, and Time In System at the end of the process, we send the data to workspace for analysis
+* `ReadTime`: Function to read time, and make operations (process TTP calculation, modelling end time) based on detected time
+* `ToWorkspace`: For each TTP, and Time In System at the end of the process, we send the data to workspace for analysis
 
 ## Modeling Assumptions
 In remodelling the system, these constraints must be respected:
