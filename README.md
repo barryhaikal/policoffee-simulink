@@ -1,6 +1,6 @@
 # POLICoffee Simulation
 
-The project is done as a prerequisite to complete the course **Industrial Technologies** taught at Politecnico di Milano by **Prof. Sergio Terzi**.
+The project is done as a prerequisite to complete the course **Industrial Technologies** taught at **Politecnico di Milano** by **Prof. Sergio Terzi**.
 
 With this model, we are simulating the production process of an Italian coffee machine manufacturer, with respect to process times, process precedence, and setup times.
 
