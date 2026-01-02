@@ -112,8 +112,9 @@ NB: Electronics testing has 0% scrap rate
 In remodelling the system, these constraints must be respected:
 
 * **Precedence:** Strict logical constraints. If precedence exists, we can not move the process before the predecessor.
-* **Availability:** Consideration of operator shifts and machine breakdown rates (MTBF/MTTR).
+* **Availability:** Consideration of operator shifts and machine breakdown rates (MTBF/MTTR). Also we can not change work hours
 * **Setup Times:** There are two types of setup times, setup between processes and setup between batches for the entire production line. Setup between processes are modelled according to the last type, while for the line, we created a special entity server to add time before the entire process line begins, based on the product type of the last batch
+* **Material Handling:** Can be neglected
 
 ---
 *This repository is developed solely for academic purposes. We allow this repository to be replicated, with respect to plagiarism regulations of Politecnico di Milano*
