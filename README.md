@@ -57,6 +57,7 @@ For our version, we decided to purse investments in
 As mentioned before, the project is divided into several files that run different models of simulation.
 
 To start the project, we must first run `MTBF_and_MTTR.m` to obtain signals for the downtime of several machines
+In the file, the variable `Tsim` has to be changed in accordance to how many years we would run the simulation (e.g. Tsim * 5 for five years of simulation)
 
 ### General structure of the Simulink models
 Using SimEvents block, the project models how entities move throughout the production system.
