@@ -1,4 +1,5 @@
 # POLICoffee Simulation
+**README stil work in progress. There might be inaccuracies or loss of information**
 
 The project is done as a prerequisite to complete the course **Industrial Technologies** taught at **Politecnico di Milano** by **Prof. Sergio Terzi**.
 
